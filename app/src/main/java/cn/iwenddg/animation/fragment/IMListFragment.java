@@ -27,6 +27,9 @@ import cn.iwenddg.animation.ui.QlPopupWindow.MyOnclickListener;
 import cn.iwenddg.animation.ui.QlPopupWindow.PopupAdapter;
 import cn.iwenddg.animation.utils.UIUtils;
 
+/**
+ * popup window
+ */
 public class IMListFragment extends SupportFragment implements CommonPopupWindow.ViewInterface {
 
     private CommonPopupWindow popupWindow;
