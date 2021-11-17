@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.uber.autodispose:autodispose:1.0.0-RC3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.uber.autodispose/autodispose/1.0.0-RC3/9291214bc6eda0d0062d6f1ce1d2dfebfb3b3a74/autodispose-1.0.0-RC3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.uber.autodispose/autodispose/1.0.0-RC3/7d182c20bbcf9e97d321e0142564442a92b85806/autodispose-1.0.0-RC3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.uber.autodispose/autodispose/1.0.0-RC3/bf972a97594b515b90232099d6d241503ea20c64/autodispose-1.0.0-RC3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

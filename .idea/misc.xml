@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable-xhdpi/tip_rou.xml" value="0.14791666666666667" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable-xxhdpi/popup_withe_bg.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/bg_unread.xml" value="0.2657407407407407" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/btn_drawable_00000000.xml" value="0.26296296296296295" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/ic_back.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/ic_change.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/ic_close.xml" value="0.2657407407407407" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/ic_delete.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/ic_edi_search.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/ic_ljt_delete.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/ic_search.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/item_background.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/map_btn_search_round_22.xml" value="0.2734375" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/popup_grey_bg.xml" value="0.25555555555555554" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/popup_item_bg.xml" value="0.25555555555555554" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/tip_rou.xml" value="0.14791666666666667" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/tip_rounded.xml" value="0.14791666666666667" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/drawable/tip_rounded_tip.xml" value="0.2657407407407407" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/activity_main.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/activity_search_new.xml" value="0.26621847886098404" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/fragment_community.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/fragment_home.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/fragment_imlist.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/fragment_mine.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/fragment_reactservice.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/nav_tab_view_layout.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/pop_window_device.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/popup_down.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/popup_item.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/popup_left_or_right.xml" value="0.5405041843541191" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/popup_up.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/query_info.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/search_layout.xml" value="0.25729166666666664" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/tv_history.xml" value="0.6050419974113272" />
+        <entry key="..\:/AndroidStudioProjects/Animation/app/src/main/res/layout/view_home_float_entry.xml" value="0.25729166666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
+</project>
