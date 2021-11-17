@@ -1,0 +1,139 @@
+package com.example.iwen.factory.model.db;
+
+import android.content.ContentValues;
+import com.raizlabs.android.dbflow.config.DatabaseDefinition;
+import com.raizlabs.android.dbflow.config.DatabaseHolder;
+import com.raizlabs.android.dbflow.config.FlowManager;
+import com.raizlabs.android.dbflow.converter.DateConverter;
+import com.raizlabs.android.dbflow.converter.TypeConverter;
+import com.raizlabs.android.dbflow.sql.QueryBuilder;
+import com.raizlabs.android.dbflow.sql.language.OperatorGroup;
+import com.raizlabs.android.dbflow.sql.language.SQLite;
+import com.raizlabs.android.dbflow.sql.language.property.IProperty;
+import com.raizlabs.android.dbflow.sql.language.property.Property;
+import com.raizlabs.android.dbflow.sql.language.property.TypeConvertedProperty;
+import com.raizlabs.android.dbflow.sql.language.property.TypeConvertedProperty.TypeConverterGetter;
+import com.raizlabs.android.dbflow.structure.ModelAdapter;
+import com.raizlabs.android.dbflow.structure.database.DatabaseStatement;
+import com.raizlabs.android.dbflow.structure.database.DatabaseWrapper;
+import com.raizlabs.android.dbflow.structure.database.FlowCursor;
+import java.lang.Class;
+import java.lang.IllegalArgumentException;
+import java.lang.Integer;
+import java.lang.Long;
+import java.lang.Override;
+import java.lang.String;
+import java.util.Date;
+
+/**
+ * This is generated code. Please do not modify */
+public final class Message_Table extends ModelAdapter<Message> {
+  /**
+   * Primary Key */
+  public static final Property<String> id = new Property<String>(Message.class, "id");
+
+  public static final Property<String> content = new Property<String>(Message.class, "content");
+
+  public static final Property<String> attach = new Property<String>(Message.class, "attach");
+
+  public static final Property<Integer> type = new Property<Integer>(Message.class, "type");
+
+  public static final TypeConvertedProperty<Long, Date> createAt = new TypeConvertedProperty<Long, Date>(Message.class, "createAt", true,
+  new TypeConvertedProperty.TypeConverterGetter() {
+  @Override
+  public TypeConverter getTypeConverter(Class<?> modelClass) {
+    Message_Table adapter = (Message_Table) FlowManager.getInstanceAdapter(modelClass);
+  return adapter.global_typeConverterDateConverter;
+  }
+  });
+
+  public static final Property<Integer> status = new Property<Integer>(Message.class, "status");
+
+  /**
+   * Foreign Key */
+  public static final Property<String> group_id = new Property<String>(Message.class, "group_id");
+
+  /**
+   * Foreign Key */
+  public static final Property<String> sender_id = new Property<String>(Message.class, "sender_id");
+
+  /**
+   * Foreign Key */
+  public static final Property<String> receiver_id = new Property<String>(Message.class, "receiver_id");
+
+  public static final IProperty[] ALL_COLUMN_PROPERTIES = new IProperty[]{id,content,attach,type,createAt,status,group_id,sender_id,receiver_id};
+
+  private final DateConverter global_typeConverterDateConverter;
+
+  public Message_Table(DatabaseHolder holder, DatabaseDefinition databaseDefinition) {
+    super(databaseDefinition);
+    global_typeConverterDateConverter = (DateConverter) holder.getTypeConverterForClass(Date.class);
+  }
+
+  @Override
+  public final Class<Message> getModelClass() {
+    return Message.class;
+  }
+
+  @Override
+  public final String getTableName() {
+    return "`Message`";
+  }
+
+  @Override
+  public final Message newInstance() {
+    return new Message();
+  }
+
+  @Override
+  public final Property getProperty(String columnName) {
+    columnName = QueryBuilder.quoteIfNeeded(columnName);
+    switch ((columnName)) {
+      case "`id`":  {
+        return id;
+      }
+      case "`content`":  {
+        return content;
+      }
+      case "`attach`":  {
+        return attach;
+      }
+      case "`type`":  {
+        return type;
+      }
+      case "`createAt`":  {
+        return createAt;
+      }
+      case "`status`":  {
+        return status;
+      }
+      case "`group_id`": {
+        return group_id;
+      }
+      case "`sender_id`": {
+        return sender_id;
+      }
+      case "`receiver_id`": {
+        return receiver_id;
+      }
+      default: {
+        throw new IllegalArgumentException("Invalid column name passed. Ensure you are calling the correct table's column");
+      }
+    }
+  }
+
+  @Override
+  public final IProperty[] getAllColumnProperties() {
+    return ALL_COLUMN_PROPERTIES;
+  }
+
+  @Override
+  public final void bindToInsertValues(ContentValues values, Message model) {
+    values.put("`id`", model.getId());
+    values.put("`content`", model.getContent());
+    values.put("`attach`", model.getAttach());
+    values.put("`type`", model.getType());
+    Long refcreateAt = model.getCreateAt() != null ? global_typeConverterDateConverter.getDBValue(model.getCreateAt()) : null;
+    values.put("`createAt`", refcreateAt);
+    values.put("`status`", model.getStatus());
+ 

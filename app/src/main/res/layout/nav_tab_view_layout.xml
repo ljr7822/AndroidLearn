@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@null"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_tab_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        tools:src="@drawable/ico_im_normal"
+        android:layout_gravity="center_horizontal" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/iv_tab_icon_animation"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/iv_red_dot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/msg_unread_count_bg"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_red_number"
+        style="@style/UnReadNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/tip_rou"
+        android:paddingStart="4dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:textColor="#3B99FF"
+        tools:text="社区"
+        android:textSize="10dp" />
+
+</FrameLayout>

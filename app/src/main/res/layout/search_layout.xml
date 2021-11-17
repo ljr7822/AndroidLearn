@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/search_block"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <!--        返回按钮-->
+
+        <ImageView
+            android:id="@+id/search_back"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:src="@drawable/ic_back" />
+
+        <!--        搜索框（采用上面写的自定义EditText-->
+        <cn.iwenddg.animation.ui.search.EditTextClear
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="264"
+            android:background="@null"
+            android:drawablePadding="8dp"
+            android:gravity="start|center_vertical"
+            android:imeOptions="actionSearch"
+            android:singleLine="true" />
+        <!--        最后2行 = 更换输入键盘按钮：换行 ->>搜索-->
+
+    </LinearLayout>
+
+    <!--    下方搜索记录布局 = ScrollView+Listview-->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--            // Listview布局（采用上述讲解的SearchListView，解决了与ScrollView的冲突）-->
+            <cn.iwenddg.animation.ui.search.SearchListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </cn.iwenddg.animation.ui.search.SearchListView>
+
+            <TextView
+                android:id="@+id/tv_clear"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#F6F6F6"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="清除搜索历史"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
